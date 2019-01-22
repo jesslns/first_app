@@ -1,5 +1,8 @@
 require 'sinatra'
 require 'shotgun'
+require 'pry'
+require 'capybara/dsl'
+require 'selenium-webdriver'
 
 set :session_secret, 'super secret'
 
